@@ -1,4 +1,4 @@
-## CORTI
+# CORTI
 
 Utility for sound analysis and recognition using neural network.
 
