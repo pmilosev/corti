@@ -1,23 +1,25 @@
-NAME
-corti - utility for sound analysis and recognition using neural network
+# CORTI
+_Utility for sound analysis and recognition using neural network_
 
-SYNOPSIS
+## SYNOPSIS
+<code>
 corti { <COMMAND> <OPTIONS> [<KNOWLEDGE FILE> [<SOUND FILE>]] | [-h | --help] [--version] }
+</code>
 
-DESCRIPTION
-Automatic Sound Recognizer is utility that provides simple interface for sound analysis and sound recognition.
+## DESCRIPTION
+Automatic Sound Recognizer is utility that provides simple interface for sound analysis and sound recognition.  
 The interface consists of several commands and command dependant options.
 
-The utility operates on so-called KNOWLEDGE files.
+The utility operates on so-called KNOWLEDGE files.  
 All parameters (like number of layers in the neural network) that are nesesary or can at any way change the behavior of the tool are stored here. Sound file can be any of the supported sound file types.
 
-For complete list of commands and options see the COMMAND and OPTIONS sections below.
+For complete list of commands and options see the COMMAND and OPTIONS sections below.  
 For complete list of supported sound file formats see the FORMATS section below.
 
-COMMAND
+## COMMAND
 All commands listed below are mutual exclusive.
 
-NEW   Creates new knowledge file.
+_NEW_   Creates new knowledge file.
 
 	Valid options:  
 		-v, --verbose
@@ -45,7 +47,7 @@ NEW   Creates new knowledge file.
 
 		corti NEW -l=2 -n:1:50 -n:2:3 -w=3 -c=13 /home/corti/new_knowledge_file
 
-LIST  List the content of the knowledge file.
+_LIST_  List the content of the knowledge file.
 
 	Valid options:
 		-v, --verbose
@@ -55,7 +57,7 @@ LIST  List the content of the knowledge file.
 
 		corti LIST -vv
 
-UPDATE  Update knowledge parameters.
+_UPDATE_  Update knowledge parameters.
 
 	Valid options:  
 		-v, --verbose
@@ -83,7 +85,7 @@ UPDATE  Update knowledge parameters.
 
 		corti UPDATE -r 0.7 -n 2:50 --retrain
 		
-TRAIN  Train neural network. Training is done on one sound file with one anwer. The answer is of format [x,y,z...] or [a=x,b=y,...]
+_TRAIN_  Train neural network. Training is done on one sound file with one anwer. The answer is of format [x,y,z...] or [a=x,b=y,...]
 
 	Valid options:
 		--dry-run
@@ -108,7 +110,7 @@ TRAIN  Train neural network. Training is done on one sound file with one anwer. 
 
 		corti TRAIN --analyze -gg -vv /home/corti/knowledge /home/corti/sound.aiff [0:0]
 
-DETECT  Detect sound.
+_DETECT_  Detect sound.
 
 	Valid options:
 		-v, --verbose
@@ -130,7 +132,7 @@ DETECT  Detect sound.
 
 		corti DETECT /home/corti/knowledge /home/corti/sound.aiff
 
-OPTIONS
+## OPTIONS
 --dry-run  Execute the command but make no changes.
 Very usefull in combination with --verbose. It is a good practise to use this option before you do some critical changes into the knowledge file.
 
@@ -202,9 +204,5 @@ One epoch actualy is one pass of the input data trought the network.
 
 --version  Displays version and exit.
 
-NOTES
-BUGS
-SEE ALSO
-
-AUTHOR
+## AUTHOR
 Pece Milosev
