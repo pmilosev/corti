@@ -7,7 +7,7 @@ SYNOPSIS
 --------
 
 <pre>
-corti { <COMMAND> <OPTIONS> [<KNOWLEDGE FILE> [<SOUND FILE>]] | [-h | --help] [--version] }
+corti { &lt;COMMAND> &lt;OPTIONS> [&lt;KNOWLEDGE FILE> [&lt;SOUND FILE>]] | [-h | --help] [--version] }
 </pre>
 
 DESCRIPTION
@@ -32,19 +32,19 @@ All commands listed below are mutual exclusive.
 	Valid options:  
 		-v, --verbose
 		-q, --quiet
-		-t=<T>, --window-type=<T>
-		-w=<N>, --num-windows=<N>
-		-o=<N>[%], --window-overlap=<N>[%]
-		-c=<N>, --cepstral-coefitients=<N>
-		-e=<D>, --max-error=<D>
-		-p=<N>, --max-epoch=<N>
-		-r=<D>, --learning-rate=<D>
-		-k=<D>, --error-coefitient=<D>
-		-l=<N>, --num-layers=<N>
-		-n=<X>:<N>, --num-neurons=<X>:<N>
-		-m=[<X>:<Y>:<Z>:]<D>, --weight=[<X>:<Y>:<Z>:]<D>
-		-b=[<X>:<Y>:<Z>:]<D>, --bias=[<X>:<Y>:<Z>:]<D>
-		-s=[<X>:<Y>:<Z>:]<D>, --sigmoid-coefitient=[<X>:<Y>:<Z>:]<D>
+		-t=&lt;T>, --window-type=&lt;T>
+		-w=&lt;N>, --num-windows=&lt;N>
+		-o=&lt;N>[%], --window-overlap=&lt;N>[%]
+		-c=&lt;N>, --cepstral-coefitients=&lt;N>
+		-e=&lt;D>, --max-error=&lt;D>
+		-p=&lt;N>, --max-epoch=&lt;N>
+		-r=&lt;D>, --learning-rate=&lt;D>
+		-k=&lt;D>, --error-coefitient=&lt;D>
+		-l=&lt;N>, --num-layers=&lt;N>
+		-n=&lt;X>:&lt;N>, --num-neurons=&lt;X>:&lt;N>
+		-m=[&lt;X>:&lt;Y>:&lt;Z>:]&lt;D>, --weight=[&lt;X>:&lt;Y>:&lt;Z>:]&lt;D>
+		-b=[&lt;X>:&lt;Y>:&lt;Z>:]&lt;D>, --bias=[&lt;X>:&lt;Y>:&lt;Z>:]&lt;D>
+		-s=[&lt;X>:&lt;Y>:&lt;Z>:]&lt;D>, --sigmoid-coefitient=[&lt;X>:&lt;Y>:&lt;Z>:]&lt;D>
 
 	Example:
 		Create new knowledge file with path "/home/corti/new_knowledge_file".
@@ -71,19 +71,19 @@ All commands listed below are mutual exclusive.
 		-v, --verbose
 		-q, --quiet
 		--retrain
-		-t=<T>, --window-type=<T>
-		-w=<N>, --num-windows=<N>
-		-o=<N>[%], --window-overlap=<N>[%]
-		-c=<N>, --cepstral-coefitients=<N>
-		-e=<D>, --max-error=<D>
-		-p=<N>, --max-epoch=<N>
-		-r=<D>, --learning-rate=<D>
-		-k=<D>, --error-coefitient=<D>
-		-l=<N>, --num-layers=<N>
-		-n=<X>:<N>, --num-neurons=<X>:<N>
-		-m=[<X>:<Y>:<Z>:]<D>, --weight=[<X>:<Y>:<Z>:]<D>
-		-b=[<X>:<Y>:<Z>:]<D>, --bias=[<X>:<Y>:<Z>:]<D>
-		-s=[<X>:<Y>:<Z>:]<D>, --sigmoid-coefitient=[<X>:<Y>:<Z>:]<D>
+		-t=&lt;T>, --window-type=&lt;T>
+		-w=&lt;N>, --num-windows=&lt;N>
+		-o=&lt;N>[%], --window-overlap=&lt;N>[%]
+		-c=&lt;N>, --cepstral-coefitients=&lt;N>
+		-e=&lt;D>, --max-error=&lt;D>
+		-p=&lt;N>, --max-epoch=&lt;N>
+		-r=&lt;D>, --learning-rate=&lt;D>
+		-k=&lt;D>, --error-coefitient=&lt;D>
+		-l=&lt;N>, --num-layers=&lt;N>
+		-n=&lt;X>:&lt;N>, --num-neurons=&lt;X>:&lt;N>
+		-m=[&lt;X>:&lt;Y>:&lt;Z>:]&lt;D>, --weight=[&lt;X>:&lt;Y>:&lt;Z>:]&lt;D>
+		-b=[&lt;X>:&lt;Y>:&lt;Z>:]&lt;D>, --bias=[&lt;X>:&lt;Y>:&lt;Z>:]&lt;D>
+		-s=[&lt;X>:&lt;Y>:&lt;Z>:]&lt;D>, --sigmoid-coefitient=[&lt;X>:&lt;Y>:&lt;Z>:]&lt;D>
 
 	Example:
 		Modify knowledge file "/home/corti/new_knowledge_file".
@@ -102,14 +102,14 @@ All commands listed below are mutual exclusive.
 		-q, --quiet
 		--analyze
 		--save
-		-t=<T>, --window-type=<T>
-		-w=<N>, --num-windows=<N>
-		-o=<N>[%], --window-overlap=<N>[%]
-		-c=<N>, --cepstral-coefitients=<N>
-		-e=<D>, --max-error=<D>
-		-p=<N>, --max-epoch=<N>
-		-r=<D>, --learning-rate=<D>
-		-k=<D>, --error-coefitient=<D>
+		-t=&lt;T>, --window-type=&lt;T>
+		-w=&lt;N>, --num-windows=&lt;N>
+		-o=&lt;N>[%], --window-overlap=&lt;N>[%]
+		-c=&lt;N>, --cepstral-coefitients=&lt;N>
+		-e=&lt;D>, --max-error=&lt;D>
+		-p=&lt;N>, --max-epoch=&lt;N>
+		-r=&lt;D>, --learning-rate=&lt;D>
+		-k=&lt;D>, --error-coefitient=&lt;D>
 
 	Example:
 		Analyse the reconstruction of the frequency domain of the
@@ -125,14 +125,14 @@ All commands listed below are mutual exclusive.
 		-g, --graphicaly-verbose
 		-q, --quiet
 		--analyze
-		-t=<T>, --window-type=<T>
-		-w=<N>, --num-windows=<N>
-		-o=<N>[%], --window-overlap=<N>[%]
-		-c=<N>, --cepstral-coefitients=<N>
-		-e=<D>, --max-error=<D>
-		-p=<N>, --max-epoch=<N>
-		-r=<D>, --learning-rate=<D>
-		-k=<D>, --error-coefitient=<D>
+		-t=&lt;T>, --window-type=&lt;T>
+		-w=&lt;N>, --num-windows=&lt;N>
+		-o=&lt;N>[%], --window-overlap=&lt;N>[%]
+		-c=&lt;N>, --cepstral-coefitients=&lt;N>
+		-e=&lt;D>, --max-error=&lt;D>
+		-p=&lt;N>, --max-epoch=&lt;N>
+		-r=&lt;D>, --learning-rate=&lt;D>
+		-k=&lt;D>, --error-coefitient=&lt;D>
 
 	Example:
 		Detect sound file "/home/corti/sound.aiff" 
@@ -164,9 +164,9 @@ Later if the structure of the network is changed, saved values will be used to r
 
 *--retrain*  Re-train the neural network using saved values.
 
-*-t=<T>, --window-type=<T>*  Window type to be used when windowing the input sound.
+*-t=&lt;T>, --window-type=&lt;T>*  Window type to be used when windowing the input sound.
 
-	<T> is one of:
+	&lt;T> is one of:
 		rect	 - rectangular window
 		gaus	 - gauss window
 		hamming	 - hamming window
@@ -176,37 +176,37 @@ Later if the structure of the network is changed, saved values will be used to r
 		bar_hann - bartlett-hann window
 		blackman - blackman window
 
-*-w=<N>, --num-windows=<N>*  Number of windows to be aplied on the input sound.
+*-w=&lt;N>, --num-windows=&lt;N>*  Number of windows to be aplied on the input sound.
 This number multipled with the number of cepstral coefitients taken from each window provide the number of inputs into the neural network.
 
-*-o=<N>[%], --window-overlap=<N>[%]*  Number of samples (or percents) shared between two consequentive windows.
+*-o=&lt;N>[%], --window-overlap=&lt;N>[%]*  Number of samples (or percents) shared between two consequentive windows.
 
-*-c=<N>, --cepstral-coefitients=<N>*  Number of cepstral coefitients taken from each window.
+*-c=&lt;N>, --cepstral-coefitients=&lt;N>*  Number of cepstral coefitients taken from each window.
 
-*-e=<D>, --max-error=<D>*  Maximum error alowed. <D> should be floating point number 0 < D < 1
+*-e=&lt;D>, --max-error=&lt;D>*  Maximum error alowed. &lt;D> should be floating point number 0 &lt; D &lt; 1
 Training of the network stops if the output of the network produces less or equal error then the maximum error specified.
 
-*-p=<N>, --max-epoch=<N>*  Mazimum number of epoch the network is alowed to spend on one lesson when training.
+*-p=&lt;N>, --max-epoch=&lt;N>*  Mazimum number of epoch the network is alowed to spend on one lesson when training.
 If the lesson is not learned within this period it is assumed that the lesson can not be learned and next lesson is started.
 One epoch actualy is one pass of the input data trought the network.
 
-*-r=<D>, --learning-rate=<D>*  Learning rate parameter for the neural network. <D> could be any floating point number but usualy values around 0.5 are used. If learning rate is to small network could be stuck in a local minimum. By contrast if the learning rate is to high then the network could jump over the global minimum.
+*-r=&lt;D>, --learning-rate=&lt;D>*  Learning rate parameter for the neural network. &lt;D> could be any floating point number but usualy values around 0.5 are used. If learning rate is to small network could be stuck in a local minimum. By contrast if the learning rate is to high then the network could jump over the global minimum.
 
-*-k=<D>, --error-coefitient=<D>*  Error coefitient. <D> could be any floating point number but usualy values around 0.5 are used. If error coefitient is to small the network will most probably need more epochs to learn the lesson because the wight corections will be minimal. By contrast if the error coefitient is to high the weight corections will just jump over the correct values.
+*-k=&lt;D>, --error-coefitient=&lt;D>*  Error coefitient. &lt;D> could be any floating point number but usualy values around 0.5 are used. If error coefitient is to small the network will most probably need more epochs to learn the lesson because the wight corections will be minimal. By contrast if the error coefitient is to high the weight corections will just jump over the correct values.
 
-*-l=<N>, --num-layers=<N>*  Number of layers the network consists of. <N> could be any positive integer but values above 4 are not common and will lead to slow network performance.
+*-l=&lt;N>, --num-layers=&lt;N>*  Number of layers the network consists of. &lt;N> could be any positive integer but values above 4 are not common and will lead to slow network performance.
 
-*-n=<X>:<N>, --num-neurons=<X>:<N>*  Number of neurons the X-th layer consists of. <N> could be any positive integer. The number of neurons in the last layer depends on the type of the answer, most comonly it is same with the number of classes in wich the data is divided to. The number of neurons in each hidden layer is one of the most important parameters that could lead from great to catastrofic results. Setting this number to small will most probably lead to false classification, however setting it to high will increase the computation time and also some times lead to false classification. Most commonly you would like to start from smaller number and watch how the increasing of this number reflect the performance of the network. It is most common that the inner layers consists of more neurons then the outer ones. 
+*-n=&lt;X>:&lt;N>, --num-neurons=&lt;X>:&lt;N>*  Number of neurons the X-th layer consists of. &lt;N> could be any positive integer. The number of neurons in the last layer depends on the type of the answer, most comonly it is same with the number of classes in wich the data is divided to. The number of neurons in each hidden layer is one of the most important parameters that could lead from great to catastrofic results. Setting this number to small will most probably lead to false classification, however setting it to high will increase the computation time and also some times lead to false classification. Most commonly you would like to start from smaller number and watch how the increasing of this number reflect the performance of the network. It is most common that the inner layers consists of more neurons then the outer ones. 
 
-*-m=[<X>:<Y>:<Z>:]<D>, --weight=[<X>:<Y>:<Z>:]<D>*  Input weight value. The <X>,<Y> and <Z> numbers represent the weight's position i.e. the laer, neuron and chanal respectively. If they are not provided then all weights are set to value <D>. If some of them equals 0 then all weights covered by the rest of the coordinates are set to <D> (e.g. -m=5:0:0:0.5 will set all weights in the fifth layer to 0.5).
-<D> could be any floating point number but usualy values 0 < D < 1 are used. By deffault all weights are set to random numbers in the interva [0,1].
+*-m=[&lt;X>:&lt;Y>:&lt;Z>:]&lt;D>, --weight=[&lt;X>:&lt;Y>:&lt;Z>:]&lt;D>*  Input weight value. The &lt;X>,&lt;Y> and &lt;Z> numbers represent the weight's position i.e. the laer, neuron and chanal respectively. If they are not provided then all weights are set to value &lt;D>. If some of them equals 0 then all weights covered by the rest of the coordinates are set to &lt;D> (e.g. -m=5:0:0:0.5 will set all weights in the fifth layer to 0.5).
+&lt;D> could be any floating point number but usualy values 0 &lt; D &lt; 1 are used. By deffault all weights are set to random numbers in the interva [0,1].
 
-*-b=[<X>:<Y>:<Z>:]<D>, --bias=[<X>:<Y>:<Z>:]<D>*  Neuron's bias value. For explanation of the <X>,<Y> and <Z> numbers see the -m option above. <D> could be any floating point number but usualy values around 0 are used. If one neuron have greater bias then some other neuron from the same layer then it has greater influence on the resulting value. By deffault all neurons are assumed equal with their biasis set to 0.
+*-b=[&lt;X>:&lt;Y>:&lt;Z>:]&lt;D>, --bias=[&lt;X>:&lt;Y>:&lt;Z>:]&lt;D>*  Neuron's bias value. For explanation of the &lt;X>,&lt;Y> and &lt;Z> numbers see the -m option above. &lt;D> could be any floating point number but usualy values around 0 are used. If one neuron have greater bias then some other neuron from the same layer then it has greater influence on the resulting value. By deffault all neurons are assumed equal with their biasis set to 0.
 
-*-s=[<X>:<Y>:<Z>:]<D>, --sigmoid-coefitient=[<X>:<Y>:<Z>:]<D>*  Neuron's sigmoid coefitient. For explanation of the <X>,<Y> and <Z> numbers see the -m option above. 
-<D> could be any floating point number but usualy values around 1 are used. This parameter have the folowing meanign into the sigmoid function:
+*-s=[&lt;X>:&lt;Y>:&lt;Z>:]&lt;D>, --sigmoid-coefitient=[&lt;X>:&lt;Y>:&lt;Z>:]&lt;D>*  Neuron's sigmoid coefitient. For explanation of the &lt;X>,&lt;Y> and &lt;Z> numbers see the -m option above. 
+&lt;D> could be any floating point number but usualy values around 1 are used. This parameter have the folowing meanign into the sigmoid function:
 
-		sig = 1 / (1 + exp(-<D> * H))
+		sig = 1 / (1 + exp(-&lt;D> * H))
 
 	Changing this values affects the activation function of the neuron. By deffault it is set to 1.
 
