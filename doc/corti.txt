@@ -205,4 +205,6 @@ One epoch actualy is one pass of the input data trought the network.
 NOTES
 BUGS
 SEE ALSO
+
 AUTHOR
+Pece Milosev
