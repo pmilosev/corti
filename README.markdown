@@ -1,6 +1,14 @@
 # CORTI
 
 Utility for sound analysis and recognition using neural network.
+The name comes from the _organ of corti_: http://en.wikipedia.org/wiki/Organ_of_Corti
+
+## NOTES
+
+The project was mainly developed as part of my bachelor's degree final exam.
+As it usually gets with this stuff, there are much more options defined than implemented :)
+
+I have open-sourced the code in a hope that someone would get interested and continue my work.
 
 ## SYNOPSIS
 
@@ -10,7 +18,7 @@ corti { &lt;COMMAND> &lt;OPTIONS> [&lt;KNOWLEDGE FILE> [&lt;SOUND FILE>]] | [-h 
 
 ## DESCRIPTION
 
-Automatic Sound Recognizer is utility that provides simple interface for sound analysis and sound recognition.
+Corti is a command line utility that provides simple interface for sound analysis and sound recognition.
 The interface consists of several commands and command dependant options.
 
 The utility operates on so-called KNOWLEDGE files.
