@@ -1,4 +1,4 @@
-# CORTI
+## CORTI
 
 Utility for sound analysis and recognition using neural network.
 
@@ -10,13 +10,13 @@ corti { &lt;COMMAND> &lt;OPTIONS> [&lt;KNOWLEDGE FILE> [&lt;SOUND FILE>]] | [-h 
 
 ## DESCRIPTION
 
-Automatic Sound Recognizer is utility that provides simple interface for sound analysis and sound recognition.  
+Automatic Sound Recognizer is utility that provides simple interface for sound analysis and sound recognition.
 The interface consists of several commands and command dependant options.
 
-The utility operates on so-called KNOWLEDGE files.  
+The utility operates on so-called KNOWLEDGE files.
 All parameters (like number of layers in the neural network) that are nesesary or can at any way change the behavior of the tool are stored here. Sound file can be any of the supported sound file types.
 
-For complete list of commands and options see the COMMAND and OPTIONS sections below.  
+For complete list of commands and options see the COMMAND and OPTIONS sections below.
 For complete list of supported sound file formats see the FORMATS section below.
 
 ## COMMAND
