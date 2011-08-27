@@ -1,11 +1,11 @@
 # CORTI
 
-Utility for sound analysis and recognition using neural network.
-The name comes from the _organ of corti_: http://en.wikipedia.org/wiki/Organ_of_Corti
+Utility for sound analysis and recognition using neural network.  
+The name comes from the *organ of corti*: http://en.wikipedia.org/wiki/Organ_of_Corti
 
 ## NOTES
 
-The project was mainly developed as part of my bachelor's degree final exam.
+The project was mainly developed as part of my bachelor's degree final exam.  
 As it usually gets with this stuff, there are much more options defined than implemented :)
 
 I have open-sourced the code in a hope that someone would get interested and continue my work.
