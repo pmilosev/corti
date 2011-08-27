@@ -8,7 +8,8 @@ The name comes from the *organ of corti*: http://en.wikipedia.org/wiki/Organ_of_
 The project was mainly developed as part of my bachelor's degree final exam.  
 As it usually gets with this stuff, there are much more options defined than implemented :)
 
-I have open-sourced the code in a hope that someone would get interested and continue my work.
+I have open-sourced the code in a hope that someone would get interested and continue my work.  
+There are no copyright headers in the code, and you are free to use it without any restrictions.  
 
 ## SYNOPSIS
 
